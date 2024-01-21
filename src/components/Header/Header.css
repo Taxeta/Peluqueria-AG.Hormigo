@@ -1,0 +1,15 @@
+.header-container {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  justify-content: space-around;
+  z-index: 1;
+  position: fixed;
+  gap: 20px;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}

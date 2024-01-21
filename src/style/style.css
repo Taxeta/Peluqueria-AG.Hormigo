@@ -1,0 +1,73 @@
+:root {
+  --primary-color: rgb(250, 251, 253);
+  --secondary-color: #264867;
+  --black: rgb(27, 27, 27);
+  --white: #f1e6e6;
+  --primary-font: Arial, Helvetica, sans-serif;
+  --secondary-font: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serifa,
+    sans-serif;
+  color-scheme: light dark;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  scroll-snap-type: y mandatory;
+  background: var(--white);
+  color: var(--black);
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+input,
+button {
+  font: inherit;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.page-container {
+  scroll-snap-align: start;
+}
