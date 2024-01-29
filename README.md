@@ -1,6 +1,8 @@
-# Boilerplate for React apps
+# Descripción
 
-With Vite + TypeScript
+Proyecto Peluquería AG Hormigo:
+
+Descubre la esencia de la elegancia y el estilo en nuestra peluquería. Expertos en cortes modernos, colores vibrantes y tratamientos de calidad. ¡Reserva tu cita hoy para una experiencia de belleza única!
 
 ## Scripts
 
@@ -11,3 +13,5 @@ With Vite + TypeScript
 `npm run preview`: runs the built app
 
 `npm run lint`: runs ESLint
+
+## Developed by - https://www.josevera-developer.com/

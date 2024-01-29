@@ -3,10 +3,8 @@
   --secondary-color: #264867;
   --black: rgb(27, 27, 27);
   --white: #f1e6e6;
-  --primary-font: Arial, Helvetica, sans-serif;
-  --secondary-font: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serifa,
-    sans-serif;
-  color-scheme: light dark;
+  --primary-font: "Sora", sans-serif;
+  --secondary-font: "Great Vibes", cursive;
 }
 
 *,
@@ -36,7 +34,6 @@ li {
   margin: 0;
   padding: 0;
   list-style: none;
-  margin-bottom: 10px;
 }
 
 input,

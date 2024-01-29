@@ -1,12 +1,15 @@
-import Header from "../../components/Header/Header";
 import "./LandingPage.css";
 
 const LandingPage = () => {
   return (
     <>
-      <Header />
       <div className="page-container">
-        <div>here render the backgrounds</div>
+        <h1 className="welcome">
+          Bienvenidos a Peluquería Alicia Guerrero Hormigo
+        </h1>
+        <p className="welcome-info">
+          Profesionales con más de 35 años de experiencia.
+        </p>
       </div>
     </>
   );
