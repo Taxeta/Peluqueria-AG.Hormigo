@@ -1,8 +1,75 @@
+import extensiones from "../../assets/extensiones.jpg";
+import tinte from "../../assets/tinte-mujer.jpg";
+import marcar from "../../assets/lavar-marcar.jpg";
+import corte from "../../assets/corte-mujer.jpg";
+import caballeroCorte from "../../assets/corte-hombre.jpg";
+import "./ServicesPage.css";
+
 const ServicesPage = () => {
   return (
-    <div className="page-container">
-      <h2>Here we will put the prices and services</h2>
-    </div>
+    <section className="services-container">
+      <h2>Nuestros servicios</h2>
+      <article className="services-list">
+        <ul className="services-card">
+          <li>
+            <strong>Lavar + Marcar</strong>
+          </li>
+          <li>20€</li>
+          <li>
+            <img className="service-img" src={marcar} alt="foto de marcado" />
+          </li>
+        </ul>
+        <ul className="services-card">
+          <li>
+            <strong>Cortar + Lavar</strong>
+          </li>
+          <li>35€</li>
+          <li>
+            <img
+              className="service-img"
+              src={corte}
+              alt="foto corte pelo mujer"
+            />
+          </li>
+        </ul>
+        <ul className="services-card">
+          <li>
+            <strong>Teñir + Lavar</strong>
+          </li>
+          <li>50€</li>
+          <li>
+            <img className="service-img" src={tinte} alt="foto tinte mujer" />
+          </li>
+        </ul>
+        <ul className="services-card">
+          <li>
+            <strong>Extensiones</strong>
+          </li>
+          <li>(60€ - 450€)</li>
+          <li>
+            <img
+              className="service-img"
+              src={extensiones}
+              alt="foto de extensiones"
+            />
+          </li>
+          <li>*Preguntar precio</li>
+        </ul>
+        <ul className="services-card">
+          <li>
+            <strong>Corte Caballero</strong>
+          </li>
+          <li>20€</li>
+          <li>
+            <img
+              className="service-img"
+              src={caballeroCorte}
+              alt="foto corte caballero"
+            />
+          </li>
+        </ul>
+      </article>
+    </section>
   );
 };
 

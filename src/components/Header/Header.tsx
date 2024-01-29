@@ -2,14 +2,19 @@ import logo from "../../assets/A.G.logo.png";
 import "./Header.css";
 
 const Header = () => {
+  const deviceWidth = window.innerWidth >= 767;
   return (
-    <div className="header-container">
-      <img className="" src={logo} alt="A.G. logo" width={38} height={38} />
-      <ul className="nav-bar">
-        <li>Home</li>
-        <li>Products</li>
-        <li>Services</li>
-        <li>Contact</li>
+    <div className={deviceWidth ? "navbar-web" : "navbar-mobile"}>
+      <img
+        className={deviceWidth ? "img-web" : "img-mobile"}
+        src={logo}
+        alt="A.G. logo"
+      />
+      <ul className={deviceWidth ? "navlist-web" : "navlist-mobile"}>
+        <li>Inicio</li>
+        <li>Servicios</li>
+        <li>Productos</li>
+        <li>Contacto</li>
       </ul>
     </div>
   );
