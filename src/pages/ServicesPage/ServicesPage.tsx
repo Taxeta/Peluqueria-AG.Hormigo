@@ -1,4 +1,4 @@
-import extensiones from "../../assets/extensiones.jpg";
+import keratina from "../../assets/keratina.jpg";
 import tinte from "../../assets/tinte-mujer.jpg";
 import marcar from "../../assets/lavar-marcar.jpg";
 import corte from "../../assets/corte-mujer.jpg";
@@ -8,7 +8,10 @@ import "./ServicesPage.css";
 const ServicesPage = () => {
   return (
     <section className="services-container">
-      <h2>Nuestros servicios</h2>
+      <h2 className="services__title">Nuestros servicios</h2>
+      <p className="services__slogan">
+        &quot;Porque tu cabello merece lo mejor&quot;
+      </p>
       <article className="services-list">
         <ul className="services-card">
           <li>
@@ -49,8 +52,8 @@ const ServicesPage = () => {
           <li>
             <img
               className="service-img"
-              src={extensiones}
-              alt="foto de extensiones"
+              src={keratina}
+              alt="foto pelo con keratina"
             />
           </li>
         </ul>

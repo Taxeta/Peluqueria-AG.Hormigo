@@ -3,7 +3,7 @@ import "./ProductsPage.css";
 const ProductsPage = () => {
   return (
     <div className="page-container">
-      <h1>Under construction</h1>
+      <h2>Under construction</h2>
     </div>
   );
 };
