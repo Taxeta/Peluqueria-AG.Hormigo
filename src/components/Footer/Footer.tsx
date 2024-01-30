@@ -8,13 +8,13 @@ const Footer = () => {
     <>
       <section className="footer-container">
         <div className="footer__info">
-          <img src={AGlogo} alt="logo A.G.Hormigo" width="40%" height="40%" />
+          <img src={AGlogo} alt="logo A.G.Hormigo" width="40%" height="50%" />
         </div>
         <div className="footer__info">
           <div className="credits-img">
             <span className="footer__credits">Crédito de las imágenes:</span>
-            <img src={cc} alt="logo creditos cc" width="40%" height="70%" />
-            <img src={vimi} alt="logo creditos vimi" width="40%" height="70%" />
+            <img src={cc} alt="logo creditos cc" width="20%" height="35%" />
+            <img src={vimi} alt="logo creditos vimi" width="20%" height="35%" />
           </div>
         </div>
       </section>

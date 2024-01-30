@@ -54,6 +54,19 @@
   overflow: hidden;
 }
 
+.services__title {
+  color: var(--black);
+  font-family: var(--primary-font);
+  text-align: center;
+  font-size: 28px;
+}
+.services__slogan {
+  color: var(--black);
+  font-family: var(--primary-font);
+  text-align: center;
+  font-size: 18px;
+}
+
 @media screen and (min-width: 767px) {
   .services-container {
     display: flex;
@@ -86,5 +99,17 @@
     overflow: hidden;
     width: 150px;
     height: 150px;
+  }
+  .services__title {
+    color: var(--black);
+    font-family: var(--primary-font);
+    text-align: center;
+    font-size: 34px;
+  }
+  .services__slogan {
+    color: var(--black);
+    font-family: var(--primary-font);
+    text-align: center;
+    font-size: 16px;
   }
 }
