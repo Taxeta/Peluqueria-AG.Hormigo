@@ -14,7 +14,7 @@ const ServicesPage = () => {
           <li>
             <strong>Lavar + Marcar</strong>
           </li>
-          <li>20€</li>
+          <li>Desde 20€</li>
           <li>
             <img className="service-img" src={marcar} alt="foto de marcado" />
           </li>
@@ -23,7 +23,7 @@ const ServicesPage = () => {
           <li>
             <strong>Cortar + Lavar</strong>
           </li>
-          <li>35€</li>
+          <li>Desde 35€</li>
           <li>
             <img
               className="service-img"
@@ -36,16 +36,16 @@ const ServicesPage = () => {
           <li>
             <strong>Teñir + Lavar</strong>
           </li>
-          <li>50€</li>
+          <li>Desde 50€</li>
           <li>
             <img className="service-img" src={tinte} alt="foto tinte mujer" />
           </li>
         </ul>
         <ul className="services-card">
           <li>
-            <strong>Extensiones</strong>
+            <strong>Keratina</strong>
           </li>
-          <li>(60€ - 450€)</li>
+          <li>Desde 100€</li>
           <li>
             <img
               className="service-img"
@@ -53,13 +53,12 @@ const ServicesPage = () => {
               alt="foto de extensiones"
             />
           </li>
-          <li>*Preguntar precio</li>
         </ul>
         <ul className="services-card">
           <li>
             <strong>Corte Caballero</strong>
           </li>
-          <li>20€</li>
+          <li>Desde 20€</li>
           <li>
             <img
               className="service-img"
