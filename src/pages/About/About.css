@@ -8,6 +8,7 @@
   background-repeat: no-repeat;
   padding: 25px;
   gap: 45px;
+  margin-bottom: 5%;
 }
 
 .contact__data {
@@ -25,7 +26,7 @@
 }
 
 .contact__title {
-  color: var(--white);
+  color: var(--black);
   font-family: var(--primary-font);
   text-align: center;
 }
@@ -35,6 +36,20 @@
   font-family: var(--primary-font);
   text-align: center;
   font-size: 16px;
+}
+
+.info-horario {
+  color: var(--white);
+  font-family: var(--primary-font);
+  text-align: center;
+  font-size: 16px;
+}
+
+.horario-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
 }
 
 @media screen and (min-width: 767px) {
@@ -58,9 +73,21 @@
     width: 50%;
   }
 
+  .info-horario {
+    color: var(--black);
+    font-family: var(--primary-font);
+    text-align: center;
+    font-size: 16px;
+  }
+
   .contact__data {
     width: 400px;
     height: 260px;
     margin-left: 10%;
+  }
+
+  .horario-container {
+    margin-left: 15%;
+    gap: 12px;
   }
 }
