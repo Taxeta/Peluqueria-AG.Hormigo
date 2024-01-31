@@ -12,7 +12,7 @@ const Footer = () => {
         </div>
         <div className="footer__info">
           <div className="credits-img">
-            <span className="footer__credits">Crédito de las imágenes:</span>
+            <span className="footer__credits">Crédito de las imágenes</span>
             <img src={cc} alt="logo creditos cc" width="20%" height="35%" />
             <img src={vimi} alt="logo creditos vimi" width="20%" height="35%" />
           </div>

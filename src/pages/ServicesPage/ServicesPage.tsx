@@ -1,8 +1,8 @@
-import keratina from "../../assets/keratina.jpg";
-import tinte from "../../assets/tinte-mujer.jpg";
-import marcar from "../../assets/lavar-marcar.jpg";
-import corte from "../../assets/corte-mujer.jpg";
-import caballeroCorte from "../../assets/corte-hombre.jpg";
+import keratina from "../../assets/keratina.webp";
+import tinte from "../../assets/tinte-mujer.webp";
+import marcar from "../../assets/lavar-marcar.webp";
+import corte from "../../assets/corte-mujer.webp";
+import caballeroCorte from "../../assets/corte-hombre.webp";
 import "./ServicesPage.css";
 
 const ServicesPage = () => {
@@ -10,7 +10,7 @@ const ServicesPage = () => {
     <section className="services-container">
       <h2 className="services__title">Nuestros servicios</h2>
       <p className="services__slogan">
-        &quot;Porque tu cabello merece lo mejor&quot;
+        &quot;Porque tu cabello <strong>merece lo mejor</strong>&quot;
       </p>
       <article className="services-list">
         <ul className="services-card">
@@ -19,7 +19,12 @@ const ServicesPage = () => {
           </li>
           <li>Desde 20€</li>
           <li>
-            <img className="service-img" src={marcar} alt="foto de marcado" />
+            <img
+              className="service-img"
+              src={marcar}
+              loading="lazy"
+              alt="foto de marcado"
+            />
           </li>
         </ul>
         <ul className="services-card">
@@ -31,6 +36,7 @@ const ServicesPage = () => {
             <img
               className="service-img"
               src={corte}
+              loading="lazy"
               alt="foto corte pelo mujer"
             />
           </li>
@@ -41,7 +47,12 @@ const ServicesPage = () => {
           </li>
           <li>Desde 50€</li>
           <li>
-            <img className="service-img" src={tinte} alt="foto tinte mujer" />
+            <img
+              className="service-img"
+              src={tinte}
+              loading="lazy"
+              alt="foto tinte mujer"
+            />
           </li>
         </ul>
         <ul className="services-card">
@@ -53,6 +64,7 @@ const ServicesPage = () => {
             <img
               className="service-img"
               src={keratina}
+              loading="lazy"
               alt="foto pelo con keratina"
             />
           </li>
@@ -66,6 +78,7 @@ const ServicesPage = () => {
             <img
               className="service-img"
               src={caballeroCorte}
+              loading="lazy"
               alt="foto corte caballero"
             />
           </li>
