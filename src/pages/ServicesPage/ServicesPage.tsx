@@ -12,7 +12,7 @@ const ServicesPage = () => {
       <p className="services__slogan">
         &quot;Porque tu cabello <strong>merece lo mejor</strong>&quot;
       </p>
-      <article className="services-list">
+      <div className="services-list">
         <ul className="services-card">
           <li>
             <strong>Lavar + Marcar</strong>
@@ -83,7 +83,7 @@ const ServicesPage = () => {
             />
           </li>
         </ul>
-      </article>
+      </div>
     </section>
   );
 };

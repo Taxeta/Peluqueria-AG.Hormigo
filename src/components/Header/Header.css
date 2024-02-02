@@ -13,6 +13,11 @@
   font-family: var(--secondary-font);
 }
 
+.header-logo {
+  width: 20%;
+  height: 20%;
+}
+
 .navlist-web {
   display: flex;
   flex-direction: row;

@@ -37,6 +37,16 @@
   padding: 4px;
 }
 
+.logo-img {
+  width: 20%;
+  height: 35%;
+}
+
+.ag-logo {
+  width: 40%;
+  height: 50%;
+}
+
 @media screen and (min-width: 767px) {
   .footer-container {
     width: 90%;
