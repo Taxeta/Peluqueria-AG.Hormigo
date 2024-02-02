@@ -1,6 +1,6 @@
 .page-container {
   height: 100vh;
-  background-image: url("../../assets/background1.png");
+  background-image: url("../../assets/background1.webp");
   background-size: cover;
   background-position: right;
   display: flex;
@@ -9,13 +9,25 @@
   justify-content: center;
   color: var(--white);
   font-family: var(--primary-font);
+  background-color: rgb(232, 219, 219);
+}
+
+.page-container:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(108, 72, 109, 0.134);
+  z-index: 1;
 }
 
 .welcome {
   font-family: var(--secondary-font);
   font-size: 32px;
   padding: 15px;
-  color: white;
+  color: rgb(241, 241, 241);
   text-align: center;
   width: 90%;
 }
@@ -24,6 +36,7 @@
   padding: 15px;
   font-size: 26px;
   text-align: center;
+  color: rgb(241, 241, 241);
 }
 
 @media screen and (min-width: 767px) {
@@ -37,7 +50,6 @@
   .welcome {
     font-family: var(--secondary-font);
     font-size: 42px;
-    color: black;
   }
 
   .welcome-info {
