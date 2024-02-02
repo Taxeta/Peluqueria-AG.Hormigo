@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <div className={deviceWidth ? "navbar-web" : "navbar-mobile"}>
-      <img src={logo} alt="A.G. logo" width="20%" height="20%" />
+      <img className="header-logo" src={logo} alt="A.G. logo" />
       <ul className={deviceWidth ? "navlist-web" : "navlist-mobile"}>
         <li>
           <a
