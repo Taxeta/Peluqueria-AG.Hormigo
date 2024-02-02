@@ -3,7 +3,7 @@
   flex-direction: row;
   padding: 15px 25px;
   justify-content: space-between;
-  z-index: 1;
+  z-index: 10;
   position: absolute;
   gap: 20px;
   width: 100%;
@@ -32,12 +32,16 @@
   flex-direction: row;
   padding: 15px;
   justify-content: space-around;
-  z-index: 1;
+  z-index: 10;
   position: fixed;
-  gap: 20px;
+  gap: 5px;
   width: 100%;
   border-bottom: 1px solid rgb(165, 81, 188);
   background-color: rgba(223, 215, 225, 0.419);
   font-family: var(--secondary-font);
   font-size: 18px;
+}
+
+.navBar-isActive {
+  border-bottom: 1px solid black;
 }
