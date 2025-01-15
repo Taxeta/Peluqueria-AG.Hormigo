@@ -1,12 +1,11 @@
 .aboutpage-container {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-image: url("../../assets/background2.webp");
   background-repeat: no-repeat;
-  padding: 25px;
+  padding: 0 25px;
   gap: 45px;
   margin-bottom: 5%;
 }

@@ -16,21 +16,13 @@ const Header = () => {
 
   return (
     <div className={deviceWidth ? "navbar-web" : "navbar-mobile"}>
-      <img className="header-logo" src={logo} alt="A.G. logo" />
+      <button
+        className="header-logo"
+        onClick={() => handleActiveReference("inicio")}
+      >
+        <img src={logo} alt="A.G. logo" />
+      </button>
       <ul className={deviceWidth ? "navlist-web" : "navlist-mobile"}>
-        <li>
-          <a
-            className={
-              activeSection === "inicio"
-                ? "navBar-isActive"
-                : "navBar-isInactive"
-            }
-            href="#inicio"
-            onClick={() => handleActiveReference("inicio")}
-          >
-            Inicio
-          </a>
-        </li>
         <li>
           <a
             className={

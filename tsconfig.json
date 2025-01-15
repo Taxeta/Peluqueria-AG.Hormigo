@@ -16,6 +16,7 @@
     "jsx": "react-jsx",
 
     /* Linting */
+    "strictNullChecks": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noUnusedLocals": true,
