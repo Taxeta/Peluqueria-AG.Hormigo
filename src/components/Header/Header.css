@@ -4,13 +4,13 @@
   padding: 15px 25px;
   justify-content: space-between;
   z-index: 10;
-  position: absolute;
+  position: fixed;
   gap: 20px;
   width: 100%;
   border-bottom: 1px solid rgb(165, 81, 188);
   background-color: rgba(238, 229, 240, 0.419);
-  font-size: 24px;
-  font-family: var(--secondary-font);
+  font-size: 20px;
+  font-family: var(--primary-font);
 }
 
 .header-logo {

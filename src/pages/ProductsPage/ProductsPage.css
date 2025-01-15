@@ -4,7 +4,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 25px;
+  margin: 50px 0;
+  background-color: #e96e93;
+  padding: 25px;
 }
 
 .productspage-container {
@@ -17,10 +19,12 @@
 .productspage__slogan {
   padding: 5px 25px;
   text-align: center;
+  color: var(--white);
 }
 .productspage__title {
   padding: 20px;
   font-family: var(--primary-font);
+  color: var(--white);
 }
 
 .productspage__img {
@@ -39,7 +43,6 @@
 @media screen and (min-width: 767px) {
   .productspage {
     background-position: center;
-    height: 100vh;
     margin-bottom: 25px;
   }
 
