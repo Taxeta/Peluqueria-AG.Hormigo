@@ -28,6 +28,7 @@
   color: var(--black);
   font-family: var(--primary-font);
   text-align: center;
+  font-weight: 700;
 }
 
 .info-pharagraph {
@@ -37,18 +38,26 @@
   font-size: 16px;
 }
 
-.info-horario {
-  color: var(--white);
+.info-horario,
+.info-telefono {
+  color: var(--black);
   font-family: var(--primary-font);
   text-align: center;
   font-size: 16px;
 }
 
-.horario-container {
+.horario-container,
+.telefono-container {
   display: flex;
   flex-direction: column;
   gap: 8px;
   justify-content: center;
+  background-color: #dcaeb4;
+  padding: 10px;
+}
+
+.contacto-iconos {
+  margin-right: 10px;
 }
 
 @media screen and (min-width: 767px) {
@@ -72,7 +81,8 @@
     width: 50%;
   }
 
-  .info-horario {
+  .info-horario,
+  .info-telefono {
     color: var(--black);
     font-family: var(--primary-font);
     text-align: center;
@@ -82,11 +92,19 @@
   .contact__data {
     width: 400px;
     height: 260px;
-    margin-left: 10%;
+    margin-left: 12%;
   }
 
   .horario-container {
-    margin-left: 15%;
+    margin-left: 17%;
     gap: 12px;
+    background-color: var(--white);
+    padding: 0;
+  }
+  .telefono-container {
+    margin-left: 20%;
+    gap: 12px;
+    background-color: var(--white);
+    padding: 0;
   }
 }

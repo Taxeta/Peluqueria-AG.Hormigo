@@ -13,7 +13,7 @@
 .services-list {
   gap: 25px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   align-items: center;
   justify-content: center;
 }
@@ -32,8 +32,8 @@
   justify-content: flex-start;
   font-family: var(--primary-font);
   font-size: 15px;
-  width: 140px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   box-shadow:
     5px 0 10px rgba(0, 0, 0, 0.1),
     0 5px 10px rgba(0, 0, 0, 0.1);
@@ -50,8 +50,8 @@
 }
 
 .service-img {
-  width: 80px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   border: 1px solid rgb(177, 174, 174);
   border-radius: 10px;
   object-fit: cover;

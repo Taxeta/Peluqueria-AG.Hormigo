@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: center;
   margin: 50px 0;
-  background-color: #e96e93;
+  background-color: #a96287;
   padding: 25px;
 }
 
@@ -19,12 +19,13 @@
 .productspage__slogan {
   padding: 5px 25px;
   text-align: center;
-  color: var(--white);
+  color: rgb(241, 241, 241);
 }
 .productspage__title {
   padding: 20px;
   font-family: var(--primary-font);
-  color: var(--white);
+  color: rgb(241, 241, 241);
+  text-align: center;
 }
 
 .productspage__img {

@@ -16,12 +16,13 @@ const Header = () => {
 
   return (
     <div className={deviceWidth ? "navbar-web" : "navbar-mobile"}>
-      <button
+      <a
         className="header-logo"
+        href="#inicio"
         onClick={() => handleActiveReference("inicio")}
       >
         <img src={logo} alt="A.G. logo" />
-      </button>
+      </a>
       <ul className={deviceWidth ? "navlist-web" : "navlist-mobile"}>
         <li>
           <a
